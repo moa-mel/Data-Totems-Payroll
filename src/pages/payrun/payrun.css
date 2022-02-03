@@ -1,0 +1,67 @@
+.payrun{
+    flex: 4;
+}
+.payrunTop{
+    display: flex;
+}
+.payrunTopLeft, 
+.payrunTopRight{
+  flex: 1;
+}
+.payrunTopRight{
+    padding:20px;
+    margin: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75 );
+}
+.payrunUpdateForm{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+.payrunUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.payrunUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.payrunUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.payrunUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.payrunUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.payrunUpdateImg{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.payrunUpdateIcon{
+  cursor: pointer;
+}
+.payrunUpdatebutton{
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color:darkblue;
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+  padding: 7px 10px;
+}
+
+

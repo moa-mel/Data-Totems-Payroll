@@ -1,0 +1,16 @@
+  
+.login{
+    flex: 4;
+} 
+  .LoginBox{
+    width: 22rem;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 115, 230, 0.3);
+  }
+  .LoginImg{
+    width: 5.5rem; 
+    height: 5.5rem;
+    border-radius: 50%;
+    border:  1px solid green;
+  }

@@ -1,0 +1,43 @@
+.employeeList{
+    flex:4;
+}
+.employeeButton{
+    flex:4;
+}
+.employeeButton{
+    display: flex;
+    justify-content: space-between;
+}
+.employeeAddButton{
+    width:80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    color:white;
+    font-size: 16px;
+}
+ .employeeListUser{
+     display: flex;
+     align-items: center;
+ }
+ .employeeListImg{
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-right: 10px;
+ }
+ .employeeListEdit{
+     border: none;
+     border-radius: 10px;
+     padding: 5px 10px;
+     background-color: #3bb077;
+     color: white;
+     cursor: pointer;
+     margin-right: 20px;
+ }
+ .employeeListDelete{
+     color: red;
+     cursor: pointer;
+ }

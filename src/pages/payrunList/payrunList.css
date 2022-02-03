@@ -1,0 +1,36 @@
+.payrunList{
+    flex: 4;
+}
+   .payrunListUser{
+       display: flex;
+       align-items: center;
+   }
+.payruncreate{
+    flex:4;
+}
+.payruncreate{
+    display: flex;
+    justify-content: space-between;
+ }
+ .payruncreateButton{
+     width:80px;
+     border: none;
+     padding: 5px;
+     background-color: teal;
+     border-radius: 5px;
+     color:white;
+     font-size: 16px;
+ }
+.payrunListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.payrunListDelete{
+    color: red;
+    cursor: pointer;
+}
